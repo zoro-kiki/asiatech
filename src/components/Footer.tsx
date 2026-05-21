@@ -43,6 +43,16 @@ export function Footer() {
           <p>Crafted with precision in Mumbai.</p>
         </div>
       </div>
+      <div className="mt-6 flex justify-center">
+        <a
+          href="https://whatsapp.com/channel/0029VafUxNW4yltSxLEHVn3Z"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border border-primary/30 bg-primary/10 px-5 py-2 text-sm font-medium text-primary transition-all hover:bg-primary/20 hover:shadow-[0_0_20px_var(--glow)]"
+        >
+          Join our WhatsApp Channel for latest tech updates
+        </a>
+      </div>
     </footer>
   );
 }

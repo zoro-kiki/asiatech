@@ -23,15 +23,17 @@ export function Hero() {
       <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-16 px-6 lg:grid-cols-2">
         {/* Left */}
         <div>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs uppercase tracking-[0.2em] text-primary"
+
+          <a
+            href="https://whatsapp.com/channel/0029VafUxNW4yltSxLEHVn3Z"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-5 py-2 text-xs uppercase tracking-[0.22em] text-primary transition-all duration-300 hover:scale-105 hover:bg-primary/20 hover:shadow-[0_0_20px_var(--glow)]"
           >
-            <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-primary" />
-            Next-gen Tech Gear
-          </motion.div>
+            <span className="h-2 w-2 animate-pulse rounded-full bg-primary" />
+            🔥 FOLLOW ASIA TECH UPDATES
+          </a>
+
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
